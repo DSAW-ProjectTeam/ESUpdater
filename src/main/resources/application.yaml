@@ -1,0 +1,17 @@
+server:
+  port: 9299
+spring:
+  elasticsearch:
+    uris: http://localhost:9201
+    username: midsummra
+    password: 123456
+  mvc:
+    static-path-pattern: ../**
+logging:
+  level:
+    com.midsummra.esupdater.initial: debug
+    com.midsummra.esupdater.service: debug
+    com.midsummra.esupdater.common.exception: error
+  file:
+    path: ./log
+
