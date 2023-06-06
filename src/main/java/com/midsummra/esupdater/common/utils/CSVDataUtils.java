@@ -1,6 +1,6 @@
 package com.midsummra.esupdater.common.utils;
 
-import com.midsummra.esupdater.Entity.BilibiliData;
+import com.midsummra.esupdater.entity.BilibiliData;
 import jakarta.annotation.Nullable;
 import jakarta.validation.constraints.NotNull;
 import lombok.extern.slf4j.Slf4j;

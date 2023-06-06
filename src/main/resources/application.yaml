@@ -12,6 +12,7 @@ logging:
     com.midsummra.esupdater.initial: debug
     com.midsummra.esupdater.service: debug
     com.midsummra.esupdater.common.exception: error
+    com.midsummra.esupdater.controller: debug
   file:
     path: ./log
 

@@ -1,6 +1,6 @@
 package com.midsummra.esupdater.service;
 
-import com.midsummra.esupdater.Entity.BilibiliData;
+import com.midsummra.esupdater.entity.BilibiliData;
 import com.midsummra.esupdater.repository.ESRepo;
 import jakarta.annotation.Nullable;
 import org.springframework.beans.factory.annotation.Autowired;

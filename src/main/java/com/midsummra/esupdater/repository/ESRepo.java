@@ -1,6 +1,6 @@
 package com.midsummra.esupdater.repository;
 
-import com.midsummra.esupdater.Entity.BilibiliData;
+import com.midsummra.esupdater.entity.BilibiliData;
 import org.springframework.data.elasticsearch.repository.ElasticsearchRepository;
 import org.springframework.stereotype.Repository;
 
@@ -24,4 +24,5 @@ public interface ESRepo extends ElasticsearchRepository<BilibiliData,Long> {
     long countAllByDataAndYearAndMonth(String pattern, int year, int month);
 
     long countAllByDataAndYearAndMonthAndDay(String pattern, int year, int month, int day);
+
 }

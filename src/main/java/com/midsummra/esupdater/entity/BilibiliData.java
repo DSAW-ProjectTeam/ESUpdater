@@ -1,4 +1,4 @@
-package com.midsummra.esupdater.Entity;
+package com.midsummra.esupdater.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

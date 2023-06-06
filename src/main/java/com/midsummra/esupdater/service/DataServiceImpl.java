@@ -1,6 +1,6 @@
 package com.midsummra.esupdater.service;
 
-import com.midsummra.esupdater.Entity.BilibiliData;
+import com.midsummra.esupdater.entity.BilibiliData;
 import com.midsummra.esupdater.common.utils.CSVDataUtils;
 import com.midsummra.esupdater.common.utils.FileUtils;
 import com.opencsv.CSVReader;
@@ -13,10 +13,8 @@ import org.springframework.stereotype.Component;
 
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileReader;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Date;
 
 @Component
@@ -83,4 +81,11 @@ public class DataServiceImpl implements DataService {
 
         return dataCount;
     }
+
+    @Override
+    public long getCount() {
+        return bilibiliData.getTotalCount();
+    }
+
+
 }

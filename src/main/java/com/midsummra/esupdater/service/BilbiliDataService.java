@@ -1,6 +1,6 @@
 package com.midsummra.esupdater.service;
 
-import com.midsummra.esupdater.Entity.BilibiliData;
+import com.midsummra.esupdater.entity.BilibiliData;
 
 import java.util.Collection;
 import java.util.List;
