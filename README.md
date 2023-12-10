@@ -1,2 +1,2 @@
 # ESUpdater
-Elasticsearch定时更新模块
+DontSpeakAbsWords Elasticsearch定时更新模块
